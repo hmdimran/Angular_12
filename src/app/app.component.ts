@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title ="Nested Loop In Angular"
-  
+  display= true
+  toggle(){
+    this.display = !this.display;
+  }
 }
