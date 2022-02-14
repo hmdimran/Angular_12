@@ -1,0 +1,27 @@
+#form {
+    width:500px;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: skyblue;
+    padding:50px;
+    overflow: hidden;
+    text-align: center;
+}
+#form input[type="email"] , input[type="text"],input[type="password"]{
+    display: block;
+    padding:10px;
+    width:95%;
+    border:0;
+    outline:0;
+
+}
+#register{
+    padding:10px;
+    background-color: cornflowerblue;
+    font-weight:bold;
+    display:block;
+    border:0;
+    outline:0;
+    cursor: pointer;
+}

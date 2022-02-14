@@ -1,0 +1,14 @@
+<div id="form">
+    <h1>Register</h1>
+    <form #basicForm="ngForm" (ngSubmit)="getData(basicForm.value)">
+        <input ngModel type="text" name="name" placeholder="enter user name"><br>
+        <input ngModel type="email" name="email" placeholder="enter user email"><br>
+        <input ngModel type="password" name="password" placeholder="enter user password"><br>
+        <button id="register">Register</button><br><br>
+        <div *ngIf="btnClick">
+            <p>Name : {{userData.name}}</p>
+            <p>Email : {{userData.email}}</p>
+            <p>Email : {{userData.password}}</p>
+        </div>
+    </form>
+</div>
